@@ -6,7 +6,7 @@ def hitung_ipk(nilai_list):
         total += konversi.get(nilai.upper(), 0)
     return total / len(nilai_list)
 
-#dicoba nih
+#dicoba bray
 mata_kuliah = ["A", "B", "C", "A"]
 ipk = hitung_ipk(mata_kuliah)
 print(f"IPK Anda: {ipk:.2f}")
